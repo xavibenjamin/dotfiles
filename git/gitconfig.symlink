@@ -1,0 +1,23 @@
+[init]
+  templatedir = ~/.git_template
+
+[url "git@github.com:acl-services/ax.git"]
+  insteadOf=https://github.com/acl-services/ax.git
+[url "git@github.com:acl-services/ax-shared.git"]
+  insteadOf=https://github.com/acl-services/ax-shared.git
+[url "git@github.com:acl-services/visualizer.git"]
+  insteadOf=https://github.com/acl-services/visualizer.git
+[url "git@github.com:acl-services/analytics-common.git"]
+  insteadOf=https://github.com/acl-services/analytics-common.git
+[url "git@github.com:acl-services/styles-guide.git"]
+  insteadOf=https://github.com/acl-services/styles-guide.git
+[url "git@github.com:acl-services/angular-bootstrap.git"]
+  insteadOf=https://github.com/acl-services/angular-bootstrap.git
+[url "git@github.com:acl-services/acl-ui.git"]
+  insteadOf=https://github.com/acl-services/acl-ui.git
+[url "git@github.com:acl-services/nvd3.git"]
+  insteadOf=https://github.com/acl-services/nvd3.git
+[url "git@github.com:acl-services/anr.git"]
+  insteadOf=https://github.com/acl-services/anr.git
+[url "git@github.com:acl-services/acl-icon-font.git"]
+  insteadOf=https://github.com/acl-services/acl-icon-font.git
