@@ -52,15 +52,10 @@ module.exports = {
       lightWhite: '#ffffff'
     },
 
-    // for hyper-term overlay
-    overlay: {
-      alwaysOnTop: false,
-      primaryDisplay: true,
-      hotkeys: ['Option+N'],
-      size: 400,
-      startAlone: true,
-      startup: true,
-      tray: false
+    // for hyperterm visor
+    visor: {
+      hotkey: 'Control+Shift+T',
+      position: 'top', // or left, right, bottom
     },
 
     // the shell to run when spawning a new session (i.e. /usr/local/bin/fish)
@@ -81,8 +76,11 @@ module.exports = {
   plugins: [
     'hypercwd',
     'hyperterm-atom-dark',
+    'hyperterm-blink',
     'hyperterm-dibdabs',
-    'hyperterm-overlay'
+    'hyperterm-mactabs',
+    'hyperterm-paste',
+    'hyperterm-visor'
   ],
 
   // in development, you can create a directory under
