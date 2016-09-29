@@ -1,0 +1,23 @@
+#!/usr/bin/env ruby
+
+message_file = ARGV[0]
+original_message = File.read(message_file)
+
+current_branch = `git rev-parse --abbrev-ref HEAD`
+
+story_number_regex = /[a-zA-Z]+-[0-9]+/
+regex_match = current_branch.match(story_number_regex)
+message_match = original_message.match(story_number_regex)
+
+message = if regex_match
+  if message_match
+    original_message
+  else
+    story_number = regex_match[0].upcase
+    "#{story_number} #{original_message}"
+  end
+else
+  original_message
+end
+
+File.open(message_file, 'w') { |f| f.write message }
