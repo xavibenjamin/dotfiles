@@ -67,8 +67,8 @@ brew 'wget'
 brew 'youtube-dl'
 brew 'z'
 brew 'homebrew/dupes/apple-gcc42'
-brew 'homebrew/versions/mysql56'
 brew 'homebrew/versions/v8-315'
+brew 'mas'
 
 # Install Apps
 cask '1password'
@@ -81,3 +81,30 @@ cask 'hyper'
 cask 'nylas-n1'
 cask 'qlmarkdown'
 cask 'vlc'
+cask 'alfred'
+cask 'moom'
+cask 'bartender'
+cask 'keyboard-maestro'
+cask 'caffeine'
+cask 'hazel'
+
+# Install Mac App Store Apps
+mas 'Frank DeLoupe', id: 530458789
+mas 'Kuvva', id: 451557061
+mas 'Keynote', id: 409183694
+mas 'iMovie', id: 408981434
+mas 'Fantastical 2', id: 975937182
+mas 'iA Writer', id: 775737590
+mas 'Sketch', id: 852320343
+mas 'Bear', id: 1091189122
+mas 'Day One', id: 1055511498
+mas 'Wunderlist', id: 410628904
+mas 'Pages', id: 409201541
+mas 'Byword', id: 420212497
+mas 'BreakTime', id: 427475982
+mas 'GarageBand', id: 682658836
+mas 'Tweetbot', id: 557168941
+mas 'Characters', id: 536511979
+mas 'Numbers', id: 409203825
+mas 'Ulysses', id: 623795237
+mas 'Shush', id: 496437906
