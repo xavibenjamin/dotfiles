@@ -1,6 +1,6 @@
 # Local/private config goes in the include
 [commit]
-	gpgsign = true
+  gpgsign = true
 
 [include]
   path = ~/.gitconfig.local
