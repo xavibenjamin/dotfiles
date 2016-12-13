@@ -52,12 +52,6 @@ module.exports = {
       lightWhite: '#ffffff'
     },
 
-    // for hyperterm visor
-    visor: {
-      hotkey: 'Control+Shift+T',
-      position: 'top', // or left, right, bottom
-    },
-
     // the shell to run when spawning a new session (i.e. /usr/local/bin/fish)
     // if left empty, your system's login shell will be used by default
     shell: ''
@@ -79,8 +73,7 @@ module.exports = {
     'hyperterm-blink',
     'hyperterm-dibdabs',
     'hyperterm-mactabs',
-    'hyperterm-paste',
-    'hyperterm-visor'
+    'hyperterm-paste'
   ],
 
   // in development, you can create a directory under
