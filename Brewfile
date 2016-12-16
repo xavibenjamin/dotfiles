@@ -87,6 +87,7 @@ cask 'bartender'
 cask 'keyboard-maestro'
 cask 'caffeine'
 cask 'hazel'
+cask 'skype'
 
 # Install Mac App Store Apps
 mas 'Frank DeLoupe', id: 530458789
