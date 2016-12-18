@@ -69,6 +69,7 @@ brew 'z'
 brew 'homebrew/dupes/apple-gcc42'
 brew 'homebrew/versions/v8-315'
 brew 'mas'
+brew 'redis'
 
 # Install Apps
 cask '1password'
