@@ -50,8 +50,8 @@ defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 # Keep folders on top when sorting by name
 defaults write com.apple.finder _FXSortFoldersFirst -bool true
 
-# Set the icon size of Dock items to 36 pixels
-defaults write com.apple.dock tilesize -int 36
+# Set the icon size of Dock items to 44 pixels
+defaults write com.apple.dock tilesize -int 44
 
 # Prevent Time Machine from prompting to use new hard drives as backup volume
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
