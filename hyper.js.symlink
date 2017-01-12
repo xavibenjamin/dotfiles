@@ -54,10 +54,14 @@ module.exports = {
 
     // the shell to run when spawning a new session (i.e. /usr/local/bin/fish)
     // if left empty, your system's login shell will be used by default
-    shell: ''
+    shell: '',
 
     // for advanced config flags please refer to https://hyperterm.org/#cfg
 
+    // hyper-statusline
+    hyperStatusLine: {
+        dirtyColor: '#d17277',
+    }
 
   },
 
@@ -73,7 +77,8 @@ module.exports = {
     'hyperterm-blink',
     'hyperterm-dibdabs',
     'hyperterm-mactabs',
-    'hyperterm-paste'
+    'hyperterm-paste',
+    'hyper-statusline'
   ],
 
   // in development, you can create a directory under
