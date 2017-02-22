@@ -73,7 +73,7 @@ module.exports = {
   //   `project#1.0.1`
   plugins: [
     'hypercwd',
-    'hyperterm-atom-dark',
+    'hyperterm-palenight',
     'hyperterm-blink',
     'hyperterm-dibdabs',
     'hyperterm-mactabs',
