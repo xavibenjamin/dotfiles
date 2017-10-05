@@ -1,24 +1,10 @@
-# Ignore excess Atom stuff
-atom.symlink/blob-store
-atom.symlink/compile-cache
-atom.symlink/dev
-atom.symlink/storage
-atom.symlink/.node-gyp
-atom.symlink/.npm
-atom.symlink/.apm
-
-# We add packages to the gitignore
-atom.symlink/packages/**
-
-# But not package-sync
-!atom.symlink/packages/package-sync
-
-# Privacy
-atom.symlink/.apmrc
-
-
 # Local gitconfig that I don't want to share
 git/gitconfig.local.symlink
+
+# ssh Stuff that I don't want to be public
+ssh.symlink/id_rsa
+ssh.symlink/id_rsa.pub
+ssh.symlink/known_hosts
 
 # Ignore stupid .DS_Store
 .DS_Store
