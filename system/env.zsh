@@ -1,3 +1,3 @@
-export EDITOR='atom'
+export EDITOR='code'
 
 eval "$(rbenv init -)"
