@@ -17,3 +17,5 @@
 
 [init]
   templatedir = ~/.git_template
+[gpg]
+  program = gpg2
