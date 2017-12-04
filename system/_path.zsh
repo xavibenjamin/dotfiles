@@ -9,3 +9,6 @@ export PATH="~/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:
 
 ## rbenv Path
 export PATH="$HOME/.rbenv/bin:$PATH"
+
+# VS Code Path
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
