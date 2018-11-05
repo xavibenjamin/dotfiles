@@ -1,3 +1,3 @@
 alias reload!='. ~/.zshrc'
 alias dotconfig="e ~/.dotfiles"
-alias ps="python -m SimpleHTTPServer 8000"
+alias ps="python3 -m http.server 8000"
