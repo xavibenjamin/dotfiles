@@ -6,12 +6,9 @@ tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
-tap "homebrew/dupes"
 tap "homebrew/services"
-tap "homebrew/versions"
 
 # Install Packages
-brew "apple-gcc42"
 brew "autoconf"
 brew "boost"
 brew "freetype"
@@ -93,6 +90,8 @@ cask "moom"
 cask "qlmarkdown"
 cask "skype"
 cask "textexpander"
+cask "visual-studio-code"
+cask "mailspring"
 
 # Install Mac App Store Apps
 mas "Airmail 3", id: 918858936
