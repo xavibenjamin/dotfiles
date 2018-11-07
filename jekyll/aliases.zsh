@@ -1,4 +1,4 @@
-alias jwd="bundle exec jekyll serve --drafts"
+alias jwd="bundle exec jekyll serve --limit_posts --future --drafts"
 alias jw="bundle exec jekyll serve"
 alias jw20="bundle exec jekyll serve --limit_posts 20"
 
