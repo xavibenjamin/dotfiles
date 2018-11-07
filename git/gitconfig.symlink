@@ -1,4 +1,5 @@
 # Local/private config goes in the include
+
 [commit]
   gpgsign = true
 
@@ -17,5 +18,6 @@
 
 [init]
   templatedir = ~/.git_template
+
 [gpg]
   program = gpg2
