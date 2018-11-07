@@ -1,5 +1,3 @@
-# Boxen for ACL apps
-export BOXEN_SOCKET_DIR=/usr/local/var/project-sockets
 
 # Heroku Toolbelt Path
 export PATH="/usr/local/heroku/bin:$PATH"
