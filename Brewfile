@@ -112,6 +112,5 @@ mas "Pages", id: 409201541
 mas "Redacted", id: 984968384
 mas "Reeder", id: 880001334
 mas "Shush", id: 496437906
-mas "Slack", id: 803453959
 mas "Things3", id: 904280696
 mas "Tweetbot", id: 1384080005
