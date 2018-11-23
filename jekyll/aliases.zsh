@@ -5,3 +5,5 @@ alias jw20="bundle exec jekyll serve --limit_posts 20"
 alias gpmp="git add . && git commit -m 'new microblog post' && gp"
 
 alias jnp="bundle exec jekyll post"
+
+alias jprod="JEKYLL_ENV=production bundle exec jekyll serve --limit_posts 20 --config _config_production.yml"
