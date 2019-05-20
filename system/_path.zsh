@@ -10,3 +10,6 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 
 # VS Code Path
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+
+# Composer Path
+export PATH="$HOME/.composer/vendor/bin:$PATH"
