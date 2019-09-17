@@ -93,6 +93,7 @@ cask "textexpander"
 cask "visual-studio-code"
 cask "mailspring"
 cask "imageoptim"
+cask "toggl"
 
 # Install Mac App Store Apps
 mas "Airmail 3", id: 918858936
