@@ -1,14 +1,12 @@
 # Where apps get installed
 cask_args appdir: '/Applications'
 
-# Taps we need to make this all work
 tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
-
-# Install Packages
+brew "openssl@1.1"
 brew "autoconf"
 brew "boost"
 brew "freetype"
@@ -19,6 +17,7 @@ brew "pcre"
 brew "readline"
 brew "sqlite"
 brew "xz"
+brew "python@3.8"
 brew "glib"
 brew "pixman"
 brew "cairo"
@@ -32,6 +31,7 @@ brew "libtiff"
 brew "erlang"
 brew "elixir"
 brew "gmp"
+brew "gnutls"
 brew "harfbuzz"
 brew "ffmpeg"
 brew "libtool"
@@ -46,6 +46,8 @@ brew "gnupg", link: false
 brew "pkg-config"
 brew "gobject-introspection"
 brew "grc"
+brew "shared-mime-info"
+brew "libheif"
 brew "imagemagick", link: false
 brew "imagemagick@6", link: true
 brew "jp2a"
@@ -77,8 +79,6 @@ brew "yarn"
 brew "youtube-dl"
 brew "z"
 brew "heroku/brew/heroku"
-
-# Install Apps
 cask "1password"
 cask "alfred"
 cask "atom"
@@ -90,14 +90,14 @@ cask "firefox"
 cask "google-chrome"
 cask "hazel"
 cask "imageoptim"
+cask "insomnia"
+cask "kap"
 cask "keyboard-maestro"
 cask "moom"
 cask "qlmarkdown"
 cask "skype"
 cask "textexpander"
 cask "toggl"
-
-# Install Mac App Store Apps
 mas "Bear", id: 1091189122
 mas "BreakTime", id: 427475982
 mas "Byword", id: 420212497
@@ -108,15 +108,14 @@ mas "Deliveries", id: 924726344
 mas "Display Menu", id: 549083868
 mas "Drafts", id: 1435957248
 mas "Fantastical", id: 975937182
-mas "Gifox", id: 1082624744
 mas "iA Writer", id: 775737590
 mas "Icon Slate", id: 439697913
 mas "Keynote", id: 409183694
+mas "Logic Pro X", id: 634148309
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Redacted", id: 984968384
 mas "Reeder", id: 880001334
-mas "Shush", id: 496437906
 mas "Spark", id: 1176895641
 mas "Things", id: 904280696
 mas "Tweetbot", id: 1384080005
