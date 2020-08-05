@@ -1,6 +1,3 @@
-# Where apps get installed
-cask_args appdir: '/Applications'
-
 tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
@@ -25,13 +22,14 @@ brew "cmake"
 brew "coreutils"
 brew "zeromq"
 brew "czmq"
-brew "dnsmasq", restart_service: true
 brew "jpeg"
 brew "libtiff"
 brew "erlang"
 brew "elixir"
 brew "gmp"
 brew "gnutls"
+brew "pkg-config"
+brew "gobject-introspection"
 brew "harfbuzz"
 brew "ffmpeg"
 brew "libtool"
@@ -42,24 +40,20 @@ brew "mpfr"
 brew "libmpc"
 brew "gcc"
 brew "git"
-brew "gnupg", link: false
-brew "pkg-config"
-brew "gobject-introspection"
+brew "gnupg"
 brew "grc"
 brew "shared-mime-info"
 brew "libheif"
 brew "imagemagick", link: false
-brew "imagemagick@6", link: true
+brew "imagemagick@6"
 brew "jp2a"
 brew "jpegoptim"
 brew "libsodium"
 brew "libyaml"
 brew "mas"
 brew "mysql", link: false
-brew "mysql@5.6", link: true
+brew "mysql@5.6"
 brew "nginx", restart_service: true
-brew "node"
-brew "node-build"
 brew "php", restart_service: true
 brew "pinentry-mac"
 brew "pngcrush"
@@ -75,7 +69,6 @@ brew "unrar"
 brew "v8"
 brew "v8@3.15"
 brew "wget"
-brew "yarn"
 brew "youtube-dl"
 brew "z"
 brew "heroku/brew/heroku"
@@ -108,6 +101,7 @@ mas "Deliveries", id: 924726344
 mas "Display Menu", id: 549083868
 mas "Drafts", id: 1435957248
 mas "Fantastical", id: 975937182
+mas "Harvest", id: 506189836
 mas "iA Writer", id: 775737590
 mas "Icon Slate", id: 439697913
 mas "Keynote", id: 409183694
