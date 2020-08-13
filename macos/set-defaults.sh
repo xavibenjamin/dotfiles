@@ -5,6 +5,8 @@
 #
 # Run ./set-defaults.sh and you'll be good to go.
 
+echo "Setting sensible macOS defaults…"
+
 # Disable press-and-hold for keys in favor of key repeat.
 defaults write -g ApplePressAndHoldEnabled -bool false
 
@@ -85,3 +87,7 @@ defaults write com.google.Chrome.canary PMPrintingExpandedStateForPrint2 -bool t
 
 # Bypass the annoyingly slow t.co URL shortener
 defaults write com.tapbots.TweetbotMac OpenURLsDirectly -bool true
+
+# Restart dock
+echo "Restarting dock…"
+killall Dock
