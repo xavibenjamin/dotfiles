@@ -55,7 +55,7 @@ node_prompt() {
 }
 
 directory_name() {
-  echo "%{$fg_bold[cyan]%}%3~%\%{$reset_color%}"
+  echo "%{$fg_bold[cyan]%}%2~%\%{$reset_color%}"
 }
 
 export PROMPT=$'$(directory_name) $(node_prompt) $(git_dirty)$(need_push) '
