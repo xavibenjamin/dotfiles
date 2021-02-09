@@ -2,6 +2,7 @@
 
 alias g='git'
 alias gb='g branch'
+alias gbr='g branch -m'
 alias gc='g commit'
 alias gca='g commit -a'
 alias gco='g checkout'
