@@ -77,41 +77,22 @@ cask "alfred"
 cask "atom"
 cask "bartender"
 cask "caffeine"
-cask "cyberduck"
-cask "dropbox"
-cask "fantastical"
 cask "firefox"
 cask "google-chrome"
 cask "hazel"
 cask "imageoptim"
 cask "insomnia"
-cask "kap"
 cask "keyboard-maestro"
 cask "moom"
 cask "qlmarkdown"
-cask "skype"
 cask "textexpander"
 cask "toggl"
-mas "Bear", id: 1091189122
-mas "BreakTime", id: 427475982
-mas "Byword", id: 420212497
+cask "notion"
 mas "Characters", id: 536511979
 mas "Contrast", id: 1254981365
 mas "Day One", id: 1055511498
 mas "Deliveries", id: 924726344
 mas "Display Menu", id: 549083868
-mas "Drafts", id: 1435957248
 mas "Fantastical", id: 975937182
-mas "Harvest", id: 506189836
-mas "iA Writer", id: 775737590
 mas "Icon Slate", id: 439697913
-mas "Keynote", id: 409183694
-mas "Logic Pro X", id: 634148309
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "Redacted", id: 984968384
-mas "Reeder", id: 880001334
 mas "Spark", id: 1176895641
-mas "Things", id: 904280696
-mas "Tweetbot", id: 1384080005
-mas "Ulysses", id: 1225570693
