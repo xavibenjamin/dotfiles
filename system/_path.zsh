@@ -12,7 +12,7 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 # Composer Path
-export PATH="$HOME/.composer/vendor/bin:$PATH"
+export PATH="$PATH:$HOME/.composer/vendor/bin"
 
 # NVM Path
 export NVM_DIR="$HOME/.nvm"
@@ -22,3 +22,7 @@ export NVM_DIR="$HOME/.nvm"
 
 # This loads nvm bash_completion
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+
+# PHP Version
+export PATH="/usr/local/opt/php@7.4/bin:$PATH"
+export PATH="/usr/local/opt/php@7.4/sbin:$PATH"
