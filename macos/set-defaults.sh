@@ -88,6 +88,13 @@ defaults write com.google.Chrome.canary PMPrintingExpandedStateForPrint2 -bool t
 # Bypass the annoyingly slow t.co URL shortener
 defaults write com.tapbots.TweetbotMac OpenURLsDirectly -bool true
 
+# Remove shaddow from screenshots
+defaults write com.apple.screencapture disable-shadow -bool true
+
+# Change screenshot file type to JPG
+defaults write com.apple.screencapture type JPG
+killall SystemUIServer
+
 # Restart dock
 echo "Restarting dock…"
 killall Dock
