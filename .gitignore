@@ -5,6 +5,8 @@ git/gitconfig.local.symlink
 ssh.symlink/id_rsa
 ssh.symlink/id_rsa.pub
 ssh.symlink/known_hosts
+ssh.symlink/flywheel_ssh
+ssh.symlink/flywheel_ssh.pub
 
 # Ignore stupid .DS_Store
 .DS_Store
