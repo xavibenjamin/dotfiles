@@ -3,3 +3,5 @@
 *.swp
 .sass-cache
 node_modules
+vendor
+dist
