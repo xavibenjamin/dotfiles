@@ -54,7 +54,6 @@ brew "mas"
 brew "mysql", link: false
 brew "mysql@5.6"
 brew "nginx", restart_service: true
-brew "php", restart_service: true
 brew "pinentry-mac"
 brew "pngcrush"
 brew "pngpaste"
