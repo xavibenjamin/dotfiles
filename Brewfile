@@ -82,8 +82,6 @@ brew "pinentry-mac"
 brew "pngcrush"
 brew "pngpaste"
 brew "postgresql"
-brew "ruby-build"
-brew "rbenv"
 brew "re2c"
 brew "redis", restart_service: true
 brew "ruby"
