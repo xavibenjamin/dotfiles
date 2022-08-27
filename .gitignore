@@ -2,11 +2,8 @@
 git/gitconfig.local.symlink
 
 # ssh Stuff that I don't want to be public
-ssh.symlink/id_rsa
-ssh.symlink/id_rsa.pub
-ssh.symlink/known_hosts
-ssh.symlink/flywheel_ssh
-ssh.symlink/flywheel_ssh.pub
+ssh.symlink/
+!ssh.symlink/config
 
 # Ignore stupid .DS_Store
 .DS_Store
