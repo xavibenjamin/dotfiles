@@ -48,7 +48,7 @@ need_push () {
 
 node_version() {
   if which node &> /dev/null; then
-    echo "%{$fg_bold[yellow]%}node(%{$fg[green]%}$(node -v)%{$fg[yellow]%})%{$reset_color%}"
+    echo "%{$fg_bold[magenta]%}node(%{$fg[green]%}$(node -v)%{$fg[magenta]%})%{$reset_color%}"
   fi
 }
 
