@@ -2,7 +2,7 @@
   "author": "Timothy B. Smith",
   "license": "ISC",
   "name": "dotfiles",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "My dotfiles",
   "private": true,
   "repository": {
