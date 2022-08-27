@@ -31,3 +31,9 @@
 
 [pull]
   rebase = false
+
+[credential]
+  helper = osxkeychain
+
+[help]
+  autocorrect = 1
