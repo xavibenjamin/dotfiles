@@ -42,23 +42,21 @@ need_push () {
   then
     echo ""
   else
-    echo " %{$fg_bold[yellow]%}\u2718%{$reset_color%}"
+    echo " %{$fg_bold[yellow]%}↑%{$reset_color%}"
   fi
 }
 
 node_version() {
-  echo "$(node -v)"
-}
-
-node_prompt() {
-  echo "%{$fg_bold[green]%}$(node_version)%{$reset_color%}"
+  if which node &> /dev/null; then
+    echo "%{$fg_bold[yellow]%}node(%{$fg[green]%}$(node -v)%{$fg[yellow]%})%{$reset_color%}"
+  fi
 }
 
 directory_name() {
-  echo "%{$fg_bold[cyan]%}%2~%\%{$reset_color%}"
+  echo "%{$fg_bold[cyan]%}%3~%\%{$reset_color%}"
 }
 
-export PROMPT=$'$(directory_name) $(node_prompt) $(git_dirty)$(need_push) '
+export PROMPT=$'$(directory_name) $(node_version)$(git_dirty)$(need_push) '
 set_prompt () {
   export RPROMPT="%{$fg_bold[cyan]%}%{$reset_color%}"
 }
