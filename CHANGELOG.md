@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/smithtimmytim/dotfiles/compare/v1.2.0...v1.2.1) (2022-08-31)
+
+
+### Bug Fixes
+
+* **homebrew:** remove skype, redis, python ([6a4c88b](https://github.com/smithtimmytim/dotfiles/commit/6a4c88b6284888025f8ae2a715f557fbf3097da4))
+
 # [1.2.0](https://github.com/smithtimmytim/dotfiles/compare/v1.1.3...v1.2.0) (2022-08-31)
 
 
