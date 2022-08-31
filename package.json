@@ -20,7 +20,8 @@
   },
   "scripts": {
     "prepare": "husky install",
-    "release": "npx semantic-release"
+    "release": "npx semantic-release",
+    "install:dotfiles": "./script/bootstrap"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
