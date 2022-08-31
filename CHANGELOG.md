@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/smithtimmytim/dotfiles/compare/v1.1.2...v1.1.3) (2022-08-31)
+
+
+### Bug Fixes
+
+* **fnm:** update load command and when file is loaded ([18ca27b](https://github.com/smithtimmytim/dotfiles/commit/18ca27b9c50be863fa8cac86ae80650d06c89604))
+
 ## [1.1.2](https://github.com/smithtimmytim/dotfiles/compare/v1.1.1...v1.1.2) (2022-08-27)
 
 ## [1.1.1](https://github.com/smithtimmytim/dotfiles/compare/v1.1.0...v1.1.1) (2022-08-27)
