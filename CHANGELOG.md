@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/smithtimmytim/dotfiles/compare/v1.1.3...v1.2.0) (2022-08-31)
+
+
+### Features
+
+* **homebrew:** add composer and fnm to Brewfile ([91744cb](https://github.com/smithtimmytim/dotfiles/commit/91744cb87435d1dd8d7a19bb9ec481c73edd464d))
+
 ## [1.1.3](https://github.com/smithtimmytim/dotfiles/compare/v1.1.2...v1.1.3) (2022-08-31)
 
 
