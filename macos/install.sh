@@ -1,3 +1,6 @@
+#!/bin/sh
+#
+# macOS install
 
 if test ! "$(uname)" = "Darwin"
   then
