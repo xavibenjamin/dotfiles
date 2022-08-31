@@ -1,3 +1,11 @@
+# [1.3.0](https://github.com/smithtimmytim/dotfiles/compare/v1.2.1...v1.3.0) (2022-08-31)
+
+
+### Features
+
+* **homebrew:** add vs code to Brewfile ([f2c6cac](https://github.com/smithtimmytim/dotfiles/commit/f2c6cacdb4bb9727490f0dd19e62b9d1fb064af3))
+* **npm:** add dotfiles installation script ([5817841](https://github.com/smithtimmytim/dotfiles/commit/58178416b0c623c8005e6d5da3e5f1a5301ad475))
+
 ## [1.2.1](https://github.com/smithtimmytim/dotfiles/compare/v1.2.0...v1.2.1) (2022-08-31)
 
 
