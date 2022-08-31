@@ -12,6 +12,7 @@ brew "icu4c"
 brew "xz"
 brew "boost"
 brew "bzip2"
+brew "composer"
 brew "freetype"
 brew "fontconfig"
 brew "gettext"
@@ -44,6 +45,7 @@ brew "srt"
 brew "ffmpeg"
 brew "pango"
 brew "python@3.10"
+brew "fnm"
 brew "fontforge"
 brew "freetds"
 brew "isl"
@@ -111,15 +113,11 @@ cask "notion"
 cask "qlmarkdown"
 cask "skype"
 cask "textexpander"
-cask "toggl", args: { appdir: "/Applications" }
-cask "vagrant"
 mas "1Password for Safari", id: 1569813296
 mas "Characters", id: 536511979
 mas "Contrast", id: 1254981365
 mas "Day One", id: 1055511498
-mas "Deliveries", id: 924726344
 mas "Display Menu", id: 549083868
-mas "Fantastical", id: 975937182
 mas "GarageBand", id: 682658836
 mas "iA Writer", id: 775737590
 mas "Icon Slate", id: 439697913
@@ -131,5 +129,4 @@ mas "Save to Raindrop.io", id: 1549370672
 mas "Spark", id: 1176895641
 mas "TestFlight", id: 899247664
 mas "Things", id: 904280696
-mas "Timery", id: 1425368544
 mas "Xcode", id: 497799835
