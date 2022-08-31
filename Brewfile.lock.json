@@ -3939,6 +3939,12 @@
         "options": {
           "full_name": "warp"
         }
+      },
+      "visual-studio-code": {
+        "version": "1.70.2",
+        "options": {
+          "full_name": "visual-studio-code"
+        }
       }
     },
     "mas": {
