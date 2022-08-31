@@ -209,6 +209,8 @@ cask "notion"
 cask "qlmarkdown"
 # Inserts pre-made snippets of text anywhere
 cask "textexpander"
+# Open-source code editor
+cask "visual-studio-code"
 # Rust-based terminal
 cask "warp"
 mas "1Password for Safari", id: 1569813296
