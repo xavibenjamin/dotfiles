@@ -156,16 +156,8 @@ brew "pinentry-mac"
 brew "pngcrush"
 # Paste PNG into files
 brew "pngpaste"
-# Object-relational database system
-brew "postgresql@14"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.8"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.9"
 # Generate C-based recognizers from regular expressions
 brew "re2c"
-# Persistent key-value database, with built-in net interface
-brew "redis", restart_service: true
 # Powerful, clean, object-oriented scripting language
 brew "ruby"
 # Diff images from the command-line
@@ -215,8 +207,6 @@ cask "moom"
 cask "notion"
 # QuickLook generator for Markdown files
 cask "qlmarkdown"
-# Video chat, voice call and instant messaging application
-cask "skype"
 # Inserts pre-made snippets of text anywhere
 cask "textexpander"
 # Rust-based terminal
