@@ -1,3 +1,11 @@
+## [1.3.1](https://github.com/smithtimmytim/dotfiles/compare/v1.3.0...v1.3.1) (2022-09-01)
+
+
+### Bug Fixes
+
+* **homebrew:** remove imagemagick and mysql ([34c8707](https://github.com/smithtimmytim/dotfiles/commit/34c8707e8497f8777a71cf125592e55d2934a5bb))
+* **homebrew:** update homebrew path ([4dda6df](https://github.com/smithtimmytim/dotfiles/commit/4dda6dfe51f1f04edc7f1c337d2aaa26066bae1d))
+
 # [1.3.0](https://github.com/smithtimmytim/dotfiles/compare/v1.2.1...v1.3.0) (2022-08-31)
 
 
