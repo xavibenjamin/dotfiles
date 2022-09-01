@@ -117,8 +117,6 @@ brew "shared-mime-info"
 # ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
 brew "libheif"
 # Tools and libraries to manipulate images in many formats
-brew "imagemagick", link: false
-# Tools and libraries to manipulate images in many formats
 brew "imagemagick@6"
 # Convert JPG images to ASCII
 brew "jp2a"
@@ -138,8 +136,6 @@ brew "mas"
 brew "mcrypt"
 # General-purpose lossless data-compression library
 brew "zlib"
-# Open source relational database management system
-brew "mysql", link: false
 # HTTP/2 C Library
 brew "nghttp2"
 # HTTP(S) server and reverse proxy, and IMAP/POP3 proxy server
